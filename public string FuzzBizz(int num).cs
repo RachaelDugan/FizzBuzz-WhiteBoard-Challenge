@@ -6,15 +6,14 @@ public string FuzzBizz(int num)
             { 
                return "Fizz! Divisable by 3!";
             }
-            if (num % 5 == 0)
+            else if (num % 5 == 0)
             {
                 return "Buzz! Divisable by 5!";
             }
-            if (num % 15 == 0)
+            else if (num % 15 == 0)
             {
                 return "FizzBuzz! Divisable by both!";
             }
-            else
             return "FuzzBizz! Not divisable by 3, 5, or both";
                
         }
